@@ -2,8 +2,6 @@ package onemount.com;
 
 import java.util.Scanner;
 
-import static onemount.com.Excersises.*;
-
 public class App
 {
     public static int[][] inputMatrix() {
@@ -41,10 +39,10 @@ public class App
     public static void main( String[] args )
     {
 //        int[][] inputStr = inputMatrix();
-        int[][] inputStr = generateMatrix(3,4,1,10);
+        int[][] inputStr = generateMatrix(4,4,1,10);
 
         // Bai_1
-        Excersises.printMatrix(inputStr);
+        Exercises_18_08.printMatrix(inputStr);
 //        int x = inputNumber();
 //        System.out.println("Sum input matrix : " + Excersises.sumElements(inputStr));
 //        System.out.println("=============");
@@ -52,12 +50,41 @@ public class App
 //        System.out.println("Matrix contains x is : " + Excersises.findXInMatrix(inputStr, x));
 //        System.out.println("=============");
 
-        System.out.println("Matrix contains x is : " + Excersises.isContainPrimeNumber(inputStr));
-        System.out.println("=============");
-
-//        System.out.println("Matrix contains x is : " + Excersises.findMaxInMatrix(inputStr));
+//        System.out.println("Max value in matrix is : " + Exercises_18_08.findMaxInMatrix(inputStr));
 //        System.out.println("=============");
 
+//        System.out.println("Matrix contains prime value is : " + Exercises_18_08.isContainPrimeNumber(inputStr));
+//        System.out.println("=============");
+
+//        Bài 4 a
+//        int row = inputNumber();
+//        System.out.println("Sum elements by row are : " + Exercises_18_08.sumRowElements(inputStr, row));
+//        System.out.println("=============");
+
+//        int col = inputNumber();
+//        System.out.println("Sum elements by col are : " + Exercises_18_08.sumColElements(inputStr, col));
+//        System.out.println("=============");
+
+//        Bài 4 b
+//        System.out.println("Sum elements main cross are : " + Exercises_18_08.sumMainCross(inputStr));
+//        System.out.println("=============");
+
+//        System.out.println("Sum elements sub cross are : " + Exercises_18_08.sumSubCross(inputStr));
+//        System.out.println("=============");
+
+//        Bài 4 c
+//        System.out.println("Sum ele a haft above main cross are : " + Exercises_18_08.sumAHaftAboveOfMainCross(inputStr));
+//        System.out.println("=============");
+
+//        System.out.println("Sum ele a haft below main cross are : " + Exercises_18_08.sumAHaftBelowOfMainCross(inputStr));
+//        System.out.println("=============");
+
+//        Bài 4 d
+//        System.out.println("Sum ele a haft above sub cross are : " + Exercises_18_08.sumAHaftAboveOfSubCross(inputStr));
+//        System.out.println("=============");
+
+        System.out.println("Sum ele a haft below sub cross are : " + Exercises_18_08.sumAHaftBelowOfSubCross(inputStr));
+        System.out.println("=============");
 
     }
 }
